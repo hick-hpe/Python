@@ -42,9 +42,6 @@ def createGraph(origin = "A"):
 
 graph = createGraph()
 print(graph)
-# graph = {'A': [{'adj': 'B', 'uv': 3, 'src': float("inf"), 'p': ''}, {'adj': 'C', 'uv': 2, 'src': float("inf"), 'p': ''}], 'B': [{'adj': 'A', 'uv': 3, 'src': float("inf"), 'p': ''}, {'adj': 'C', 'uv': 1, 'src': float("inf"), 'p': ''}, {'adj': 'D', 'uv': 5, 'src': float("inf"), 'p': ''}], 'C': [{'adj': 'A', 'uv': 2, 'src': float("inf"), 'p': ''}, {'adj': 'B', 'uv': 1, 'src': float("inf"), 'p': ''}, {'adj': 'D', 'uv': 3, 'src': float("inf"), 'p': ''}, {'adj': 'E', 'uv': 6, 'src': float("inf"), 'p': ''}], 'D': [{'adj': 'B', 'uv': 5, 'src': float("inf"), 'p': ''}, {'adj': 'C', 'uv': 3, 'src': float("inf"), 'p': ''}, {'adj': 'E', 'uv': 4, 'src': float("inf"), 'p': ''}], 'E': [{'adj': 'C', 'uv': 6, 'src': float("inf"), 'p': ''}, {'adj': 'D', 'uv': 4, 'src': float("inf"), 'p': ''}]}
-# {'adj': 'B', 'uv': 3, 'src': float("inf"), 'p': ''}
-
 
 def visitNode(v, graph, custos):
     for k in range(len(graph[v])):
